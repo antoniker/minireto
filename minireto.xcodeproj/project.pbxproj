@@ -6,16 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		A875B28F1C162E7D008B04C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A875B28E1C162E7D008B04C2 /* AppDelegate.swift */; };
-		A875B2911C162E7D008B04C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A875B2901C162E7D008B04C2 /* ViewController.swift */; };
-		A875B2941C162E7D008B04C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A875B2921C162E7D008B04C2 /* Main.storyboard */; };
-		A875B2961C162E7D008B04C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A875B2951C162E7D008B04C2 /* Assets.xcassets */; };
-		A875B2991C162E7D008B04C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A875B2971C162E7D008B04C2 /* LaunchScreen.storyboard */; };
-		A875B2A41C162E7D008B04C2 /* miniretoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A875B2A31C162E7D008B04C2 /* miniretoTests.swift */; };
-		A875B2AF1C162E7D008B04C2 /* miniretoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A875B2AE1C162E7D008B04C2 /* miniretoUITests.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		A875B2A01C162E7D008B04C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -34,19 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A875B28B1C162E7D008B04C2 /* minireto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minireto.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A875B28E1C162E7D008B04C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A875B2901C162E7D008B04C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A875B2931C162E7D008B04C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A875B2951C162E7D008B04C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A875B2981C162E7D008B04C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A875B29A1C162E7D008B04C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A875B29F1C162E7D008B04C2 /* miniretoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miniretoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A875B2A31C162E7D008B04C2 /* miniretoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniretoTests.swift; sourceTree = "<group>"; };
-		A875B2A51C162E7D008B04C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A875B2AA1C162E7D008B04C2 /* miniretoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miniretoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A875B2AE1C162E7D008B04C2 /* miniretoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniretoUITests.swift; sourceTree = "<group>"; };
-		A875B2B01C162E7D008B04C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A875B28B1C162E7D008B04C2 /* minireto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = minireto.app; path = "/Users/antonik/Documents/curso_tec/minireto/build/Debug-iphoneos/minireto.app"; sourceTree = "<absolute>"; };
+		A875B29F1C162E7D008B04C2 /* miniretoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = miniretoTests.xctest; path = "/Users/antonik/Documents/curso_tec/minireto/build/Debug-iphoneos/miniretoTests.xctest"; sourceTree = "<absolute>"; };
+		A875B2AA1C162E7D008B04C2 /* miniretoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = miniretoUITests.xctest; path = "/Users/antonik/Documents/curso_tec/minireto/build/Debug-iphoneos/miniretoUITests.xctest"; sourceTree = "<absolute>"; };
+		A875B2BC1C162F14008B04C2 /* minireto.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = minireto.playground; path = ../minireto.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,52 +58,8 @@
 		A875B2821C162E7D008B04C2 = {
 			isa = PBXGroup;
 			children = (
-				A875B28D1C162E7D008B04C2 /* minireto */,
-				A875B2A21C162E7D008B04C2 /* miniretoTests */,
-				A875B2AD1C162E7D008B04C2 /* miniretoUITests */,
-				A875B28C1C162E7D008B04C2 /* Products */,
+				A875B2BC1C162F14008B04C2 /* minireto.playground */,
 			);
-			sourceTree = "<group>";
-		};
-		A875B28C1C162E7D008B04C2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A875B28B1C162E7D008B04C2 /* minireto.app */,
-				A875B29F1C162E7D008B04C2 /* miniretoTests.xctest */,
-				A875B2AA1C162E7D008B04C2 /* miniretoUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A875B28D1C162E7D008B04C2 /* minireto */ = {
-			isa = PBXGroup;
-			children = (
-				A875B28E1C162E7D008B04C2 /* AppDelegate.swift */,
-				A875B2901C162E7D008B04C2 /* ViewController.swift */,
-				A875B2921C162E7D008B04C2 /* Main.storyboard */,
-				A875B2951C162E7D008B04C2 /* Assets.xcassets */,
-				A875B2971C162E7D008B04C2 /* LaunchScreen.storyboard */,
-				A875B29A1C162E7D008B04C2 /* Info.plist */,
-			);
-			path = minireto;
-			sourceTree = "<group>";
-		};
-		A875B2A21C162E7D008B04C2 /* miniretoTests */ = {
-			isa = PBXGroup;
-			children = (
-				A875B2A31C162E7D008B04C2 /* miniretoTests.swift */,
-				A875B2A51C162E7D008B04C2 /* Info.plist */,
-			);
-			path = miniretoTests;
-			sourceTree = "<group>";
-		};
-		A875B2AD1C162E7D008B04C2 /* miniretoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A875B2AE1C162E7D008B04C2 /* miniretoUITests.swift */,
-				A875B2B01C162E7D008B04C2 /* Info.plist */,
-			);
-			path = miniretoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +150,7 @@
 				Base,
 			);
 			mainGroup = A875B2821C162E7D008B04C2;
-			productRefGroup = A875B28C1C162E7D008B04C2 /* Products */;
+			productRefGroup = A875B2821C162E7D008B04C2;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -229,9 +166,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A875B2991C162E7D008B04C2 /* LaunchScreen.storyboard in Resources */,
-				A875B2961C162E7D008B04C2 /* Assets.xcassets in Resources */,
-				A875B2941C162E7D008B04C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +190,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A875B2911C162E7D008B04C2 /* ViewController.swift in Sources */,
-				A875B28F1C162E7D008B04C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +197,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A875B2A41C162E7D008B04C2 /* miniretoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +204,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A875B2AF1C162E7D008B04C2 /* miniretoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +221,6 @@
 			targetProxy = A875B2AB1C162E7D008B04C2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A875B2921C162E7D008B04C2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A875B2931C162E7D008B04C2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A875B2971C162E7D008B04C2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A875B2981C162E7D008B04C2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A875B2B11C162E7D008B04C2 /* Debug */ = {
